@@ -61,7 +61,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
 
-            var notesList = remember {
+            var notesList = remember { //Вот тут
                 mutableStateListOf<Note>(
                     Note(
                         "Добрый день",
